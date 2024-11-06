@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produtos - Loja de Artigos Esportivos</title>
+    <style>
+        /* Estilos Globais */
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Cabeçalho */
+        header {
+            background-color: #ff0000;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* Conteúdo Principal */
+        .content {
+            padding: 20px;
+        }
+
+        /* Estilo da Galeria de Produtos */
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 20px;
+        }
+
+        .product-item {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            overflow: hidden;
+            text-align: center;
+            transition: box-shadow 0.3s;
+        }
+
+        .product-item:hover {
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .product-image img {
+            width: 100%;
+            height: auto;
+        }
+
+        .product-info {
+            padding: 15px;
+        }
+
+        .product-name {
+            font-size: 1.1em;
+            margin: 10px 0;
+            color: #333;
+        }
+
+        .product-price {
+            color: #ff0000;
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+
+        /* Rodapé */
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Cabeçalho -->
+    <header>
+        <h1>Produtos - Loja de Artigos Esportivos</h1>
+    </header>
+
+    <center> 
+    </center>
+    <!-- Conteúdo Principal -->
+    <div class="content">
+        <h2>Nossos Produtos</h2>
+        <div class="product-grid">
+            <!-- Produto 1 -->
+            <div class="product-item">
+                <div class="product-image">
+                    <img src="https://via.placeholder.com/200" alt="Tênis de Corrida">
+                </div>
+                <div class="product-info">
+                    <h3 class="product-name">Tênis de Corrida</h3>
+                    <p class="product-price">R$ 199,99</p>
+                </div>
+            </div>
+            
+            <!-- Produto 2 -->
+            <div class="product-item">
+                <div class="product-image">
+                    <img src="https://via.placeholder.com/200" alt="Camiseta Esportiva">
+                </div>
+                <div class="product-info">
+                    <h3 class="product-name">Camiseta Esportiva</h3>
+                    <p class="product-price">R$ 79,99</p>
+                </div>
+            </div>
+            
+            <!-- Produto 3 -->
+            <div class="product-item">
+                <div class="product-image">
+                    <img src="https://via.placeholder.com/200" alt="Bola de Futebol">
+                </div>
+                <div class="product-info">
+                    <h3 class="product-name">Bola de Futebol</h3>
+                    <p class="product-price">R$ 89,99</p>
+                </div>
+            </div>
+            
+            <!-- Produto 4 -->
+            <div class="product-item">
+                <div class="product-image">
+                    <img src="https://via.placeholder.com/200" alt="Luvas de Academia">
+                </div>
+                <div class="product-info">
+                    <h3 class="product-name">Luvas de Academia</h3>
+                    <p class="product-price">R$ 49,99</p>
+                </div>
+            </div>
+
+            <!-- Adicione mais produtos conforme necessário -->
+        </div>
+    </div>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2024 Loja de Artigos Esportivos. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
